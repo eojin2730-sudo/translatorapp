@@ -15,6 +15,7 @@ import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.chinese.ChineseTextRecognizerOptions
 import java.util.concurrent.atomic.AtomicBoolean
+import com.google.mlkit.common.model.DownloadConditions
 
 class TranslateService : Service() {
     companion object { const val START = "start"; const val STOP = "stop"; const val CHANNEL = "translate" }
